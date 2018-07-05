@@ -20,7 +20,7 @@ export default function Header() {
       <div className="intro-head">
         <h1>Tom Haborak</h1>
         <h2>Software Engineer</h2>
-        <h3>New York, NY</h3>
+        {/* <h3>New York, NY</h3> */}
         <h4>thaborak@gmail.com</h4>
         <div className="intro-social">
           <a href="mailto:thaborak@gmail.com">

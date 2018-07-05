@@ -26,7 +26,7 @@ export default function Work() {
               <span>node.js</span>
             </div>
             <p>
-              {'The ArmChair-GM application allows a user to draft & manage their fantasy football team with a interactive draft board of the top 200 players from FantasyPros.com.'}
+              {'The ArmChair-GM application allows a user to draft & manage their fantasy football team with a interactive draft board of the top 200 players from FantasyPros.com. '}
               <b>{'Responsibilities: '}</b>{'This was an individual project where I was responsible for all aspects of a full stack JavaScript application from idea and design to features and functionality.'}
             </p>
           </div>
@@ -49,7 +49,7 @@ export default function Work() {
               <span>mongo.db</span>
             </div>
             <p>
-              {' A full stack concert-based application that allows a user to search, book, and share multiple concert plans. We also utilized JSON Web Tokens for authentication, the Ticketmaster, YouTube & AirBnB API\'s for data, and the Google Maps API for additional functionality.'}
+              {' A full stack concert-based application that allows a user to search, book, and share multiple concert plans. We also utilized JSON Web Tokens for authentication, the Ticketmaster, YouTube & AirBnB API\'s for data, and the Google Maps API for additional functionality. '}
               <b>{'Responsibilities:'}</b>{' QA Lead: managed git workflow & deployment, worked on feature for both the backend & frontend.'}
             </p>
           </div>
