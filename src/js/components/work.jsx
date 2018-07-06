@@ -10,7 +10,7 @@ export default function Work() {
         <h1>Projects</h1>
         <div className="proj-container" id="mbsc">
           <a href="https://armchair-gm.netlify.com/" className="proj-screenshot left" target="_blank">
-            <img src={ArmChair} alt="armchair" />
+            <img className="grow" src={ArmChair} alt="armchair" />
           </a>
           <div className="proj-detail right">
             <div className="proj-title">
@@ -54,38 +54,12 @@ export default function Work() {
             </p>
           </div>
           <a href="https://concertconnect-client.herokuapp.com/" className="proj-screenshot right" target="_blank">
-            <img src={cc} alt="concertconnect" />
+            <img className="grow" src={cc} alt="concertconnect" />
           </a>
         </div>
-        {/* <div className="proj-container" id="connect-four">
-          <a href="https://learn-high-valyrian.netlify.com/" className="proj-screenshot left" target="_blank">
-            <img src="img/connect4.png" alt="connect-four" />
-          </a>
-          <div className="proj-detail right">
-            <div className="proj-title">
-              <h2>connect 4</h2>
-              <a href="https://github.com/robbykim/connect-four" target="_blank">
-                <i className="fa fa-github fa-2x" aria-hidden="true" />
-              </a>
-            </div>
-            <div className="proj-lang">
-              <span>react</span>
-              <span>-</span>
-              <span>socket.io</span>
-              <span>-</span>
-              <span>node.js</span>
-              <span>-</span>
-              <span>mongo.db</span>
-            </div>
-            <p>
-              {'An online game that allows you to play the classic connect four game with friends from different places. '}
-              <b>{'Responsibilities:'}</b>{' frontend with React/Redux, UI/UX, backend with Node.js and MongoDB.'}
-            </p>
-          </div>
-        </div> */}
         <div className="proj-container" id="duodragons">
           <a href="https://learn-high-valyrian.netlify.com" className="proj-screenshot left" target="_blank">
-            <img src={DuoDragon} alt="duodragons" />
+            <img className="grow" src={DuoDragon} alt="duodragons" />
           </a>
           <div className="proj-detail right">
             <div className="proj-title">

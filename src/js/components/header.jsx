@@ -42,23 +42,57 @@ export default function Header() {
         <div className="skills-section">
           <div className="skills-lang">
             <h3>languages:</h3>
-            <img src={jsImg} alt="javascript" />
-            <img src={pyImg} alt="python" />
-            <img src={htmlImg} alt="html" />
-            <img src={cssImg} alt="css" />
+
+            <div className="tooltip">
+              <img className="grow" src={jsImg} alt="javascript" />
+              <span class="tooltiptext">JavaScript</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={pyImg} title="this will be displayed as a tooltip" alt="python" />
+              <span class="tooltiptext">Python</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={htmlImg} alt="html" />
+              <span class="tooltiptext">Html</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={cssImg} alt="css" />
+              <span class="tooltiptext">CSS</span>
+            </div>
           </div>
           <div className="skills-framework">
             <h3>frameworks:</h3>
-            <img src={reactImg} alt="react" />
-            <img src={nodeImg} alt="node" />
-            <img src={jqueryImg} alt="jquery" />
-            <img src={graphqlImg} alt="graphql" />
-            <img src={apolloImg} alt="apollo" />
+            <div className="tooltip" v>
+              <img className="grow" src={reactImg} alt="react" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={nodeImg} alt="node" />
+              <span class="tooltiptext">Node.js</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={jqueryImg} alt="jquery" />
+              <span class="tooltiptext">Jquery</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={graphqlImg} alt="graphql" />
+              <span class="tooltiptext">GraphQL</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={apolloImg} alt="apollo" />
+              <span class="tooltiptext">Apollo</span>
+            </div>
           </div>
           <div className="skills-databases">
             <h3>databases:</h3>
-            <img src={mongoImg} alt="mongo" />
-            <img src={sqlImg} alt="postgres" />
+            <div className="tooltip">
+              <img className="grow" src={mongoImg} alt="mongo" />
+              <span class="tooltiptext">MongoDB</span>
+            </div>
+            <div className="tooltip">
+              <img className="grow" src={sqlImg} alt="postgres" />
+              <span class="tooltiptext">Postgres SQL</span>
+            </div>
           </div>
         </div>
       </div>
