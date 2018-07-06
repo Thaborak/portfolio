@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './header';
 import Work from './work';
 import Footer from './footer';
+import AboutMe from './aboutme';
 
 class App extends Component {
   componentDidMount() {
@@ -13,8 +14,9 @@ class App extends Component {
     return (
       <div>
         <Header />
+        {/* <AboutMe /> */}
         <Work />
-        <Footer />
+        <Footer /> 
       </div>
     );
   }

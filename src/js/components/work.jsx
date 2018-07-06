@@ -8,7 +8,7 @@ export default function Work() {
     <section className="work-section">
       <div className="work-container">
         <h1>Projects</h1>
-        <div className="proj-container" id="mbsc">
+        <div className="proj-container" id="armchair">
           <a href="https://armchair-gm.netlify.com/" className="proj-screenshot left" target="_blank">
             <img className="grow" src={ArmChair} alt="armchair" />
           </a>
@@ -29,7 +29,7 @@ export default function Work() {
             <p className="responsibilities"><b>{'Responsibilities: '}</b>{'This was an individual project where I was responsible for all aspects of a full stack JavaScript application from idea and design to features and functionality.'}</p>
           </div>
         </div>
-        <div className="proj-container" id="book-kit">
+        <div className="proj-container" id="cc">
           <div className="proj-detail left">
             <div className="proj-title">
               <h2>ConcertConnect</h2>
@@ -43,8 +43,8 @@ export default function Work() {
               <span>node.js</span>
               <span>mongo.db</span>
             </div>
-            <p>{' A full stack concert-based application that allows a user to search, book, and share multiple concert plans. We also utilized JSON Web Tokens for authentication, the Ticketmaster, YouTube & AirBnB API\'s for data, and the Google Maps API for additional functionality.'}</p>
-            <p className="responsibilities"><b>{'Responsibilities:'}</b>{'QA Lead: managed git workflow & deployment, worked on features for both the backend & frontend.'}</p>
+            <p>{'A full stack concert-based application that allows a user to search, book, and share multiple concert plans. We also utilized JWT for authentication, the Ticketmaster, YouTube & AirBnB API\'s for data, and the Google Maps API for additional functionality.'}</p>
+            <p className="responsibilities"><b>{'Responsibilities:'}</b>{'Managed git workflow & deployment, worked on features for both the backend & frontend.'}</p>
           </div>
           <a href="https://concertconnect-client.herokuapp.com/" className="proj-screenshot right" target="_blank">
             <img className="grow" src={cc} alt="concertconnect" />
