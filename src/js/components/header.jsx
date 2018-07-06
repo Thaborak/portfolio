@@ -37,7 +37,7 @@ export default function Header() {
       <div className="intro-content">
         <p>
           {'Hi! I\'m Tom, a software engineer '}
-          {`skilled in writing clean, and scalable code.`}
+          {`skilled in writing clean and scalable code.`}
         </p>
         <div className="skills-section">
           <div className="skills-lang">
@@ -56,7 +56,7 @@ export default function Header() {
             <img src={apolloImg} alt="apollo" />
           </div>
           <div className="skills-databases">
-            <h3>Databases:</h3>
+            <h3>databases:</h3>
             <img src={mongoImg} alt="mongo" />
             <img src={sqlImg} alt="postgres" />
           </div>
