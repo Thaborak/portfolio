@@ -14,7 +14,7 @@ export default function Work() {
           </a>
           <div className="proj-detail right">
             <div className="proj-title">
-              <h2>ArmChair Fantasy Football</h2>
+              <h2>ArmChair GM </h2>
               <a href="https://github.com/Thaborak/armchair-gm-client" target="_blank">
                 <i className="fa fa-github fa-2x" aria-hidden="true" />
               </a>
@@ -25,10 +25,8 @@ export default function Work() {
               <span>mongo.db</span>
               <span>node.js</span>
             </div>
-            <p>
-              {'The ArmChair-GM application allows a user to draft & manage their fantasy football team with a interactive draft board of the top 200 players from FantasyPros.com. '}
-              <b>{'Responsibilities: '}</b>{'This was an individual project where I was responsible for all aspects of a full stack JavaScript application from idea and design to features and functionality.'}
-            </p>
+            <p>{'The ArmChair-GM application allows a user to draft & manage their fantasy football team with a interactive draft board of the top 200 players from FantasyPros.com. '}</p>
+            <p className="responsibilities"><b>{'Responsibilities: '}</b>{'This was an individual project where I was responsible for all aspects of a full stack JavaScript application from idea and design to features and functionality.'}</p>
           </div>
         </div>
         <div className="proj-container" id="book-kit">
@@ -41,17 +39,12 @@ export default function Work() {
             </div>
             <div className="proj-lang">
               <span>react</span>
-              <span>-</span>
               <span>redux</span>
-              <span>-</span>
               <span>node.js</span>
-              <span>-</span>
               <span>mongo.db</span>
             </div>
-            <p>
-              {' A full stack concert-based application that allows a user to search, book, and share multiple concert plans. We also utilized JSON Web Tokens for authentication, the Ticketmaster, YouTube & AirBnB API\'s for data, and the Google Maps API for additional functionality. '}
-              <b>{'Responsibilities:'}</b>{' QA Lead: managed git workflow & deployment, worked on feature for both the backend & frontend.'}
-            </p>
+            <p>{' A full stack concert-based application that allows a user to search, book, and share multiple concert plans. We also utilized JSON Web Tokens for authentication, the Ticketmaster, YouTube & AirBnB API\'s for data, and the Google Maps API for additional functionality.'}</p>
+            <p className="responsibilities"><b>{'Responsibilities:'}</b>{'QA Lead: managed git workflow & deployment, worked on features for both the backend & frontend.'}</p>
           </div>
           <a href="https://concertconnect-client.herokuapp.com/" className="proj-screenshot right" target="_blank">
             <img className="grow" src={cc} alt="concertconnect" />
@@ -70,17 +63,12 @@ export default function Work() {
             </div>
             <div className="proj-lang">
               <span>react</span>
-              <span>-</span>
               <span>redux</span>
-              <span>-</span>
               <span>node.js</span>
-              <span>-</span>
               <span>mongo.db</span>
             </div>
-            <p>
-              {'A small application designed to teach users Valyrian using a spaced-repetition algorithm. My partner on this project and I, are both fans of the HBO show Game Of Thrones and choose the fictional language Valyrian as an "unique" for the user to learn. '}
-              <b>{'Responsibilities:'}</b>{' I was involved in all aspects of this project from idea generation to implementation.'}
-            </p>
+            <p>{'A small application designed to teach users Valyrian using a spaced-repetition algorithm. My partner on this project and I, are both fans of the HBO show Game Of Thrones and choose the fictional language Valyrian as an "unique" for the user to learn. '}</p>
+            <p className="responsibilities"><b>{'Responsibilities:'}</b>{' I was involved in all aspects of this project from idea generation to implementation.'}</p>
           </div>
         </div>
       </div>
