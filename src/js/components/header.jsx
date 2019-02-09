@@ -32,6 +32,9 @@ export default function Header() {
           <a href="https://github.com/thaborak" target="_blank">
             <i className="fa fa-github fa-3x" aria-hidden="true" />
           </a>
+          <a href="https://angel.co/thomas-haborak" target="_blank">
+            <i class="fa fa-angellist fa-3x" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
       <div className="intro-content">

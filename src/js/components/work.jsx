@@ -2,11 +2,35 @@ import React from 'react';
 import cc from '../../img/CC.png'
 import ArmChair from '../../img/ArmChair.png';
 import DuoDragon from '../../img/DuoDragons.png';
+import Daix from '../../img/daix.png'
 
 export default function Work() {
   return (
     <section className="work-section">
       <div className="work-container">
+        <h1>Work Experience</h1>
+        <div className="proj-container" id="cc">
+          <div className="proj-detail left">
+            <div className="proj-title">
+              <h2>Daix.io</h2>
+                <br/><i className="label">July 2018 - Present</i>
+            </div>
+            <div className="proj-lang">
+              <span>react</span>
+              <span>redux</span>
+              <span>node.js</span>
+              <span>mysql</span>
+              <span>golang</span>
+              <span>aws</span>
+              <span>docker</span>
+            </div>
+            <p>{'A full stack cryptocurrency analytics platform providing realtime pricing, sentiment, and news data from hundreds of cryptocurrencies '}</p>
+            <p className="responsibilities"><b>{'Responsibilities:'}</b>{' Lead javascript development on frontend(react) and backend(node.js), started dev ops workflow with docker & aws'}</p>
+          </div>
+          <a href="http://daix.io/" className="proj-screenshot right" target="_blank">
+            <img className="grow" src={Daix} alt="concertconnect" />
+          </a>
+        </div>
         <h1>Projects</h1>
         <div className="proj-container" id="armchair">
           <a href="https://armchair-gm.netlify.com/" className="proj-screenshot left" target="_blank">

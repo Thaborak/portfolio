@@ -16,7 +16,7 @@ export default function Footer() {
             <i className="fa fa-github fa-3x" aria-hidden="true" />
           </a>
         </div>
-        <span>&copy; Tom Haborak 2018</span>
+        <span>&copy; Tom Haborak 2019</span>
       </div>
     </footer>
   );
