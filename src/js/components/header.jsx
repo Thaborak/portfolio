@@ -26,13 +26,13 @@ export default function Header() {
           <a href="mailto:thaborak@gmail.com">
             <i className="fa fa-envelope fa-3x" aria-hidden="true" />
           </a>
-          <a href="https://www.linkedin.com/in/tom-haborak" target="_blank">
+          <a href="https://www.linkedin.com/in/tom-haborak">
             <i className="fa fa-linkedin-square fa-3x" aria-hidden="true" />
           </a>
-          <a href="https://github.com/thaborak" target="_blank">
+          <a href="https://github.com/thaborak">
             <i className="fa fa-github fa-3x" aria-hidden="true" />
           </a>
-          <a href="https://angel.co/thomas-haborak" target="_blank">
+          <a href="https://angel.co/thomas-haborak">
             <i class="fa fa-angellist fa-3x" aria-hidden="true"></i>
           </a>
         </div>

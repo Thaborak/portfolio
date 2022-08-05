@@ -1,8 +1,8 @@
 import React from 'react';
-import stn from '../../img/stncash.png'
+import stn from '../../img/stn.png'
 import pp from '../../img/pp.png';
 import mufg from '../../img/mufg.png';
-import Daix from '../../img/daix.png'
+import Daix from '../../img/daixio.png'
 
 export default function Work() {
   return (
@@ -22,20 +22,20 @@ export default function Work() {
               <span>react native</span>
               <span>mongo.db</span>
             </div>
-            <p>{`Worked on the Mobile team, and then later on the Internal/R&D team. I worked across the whole stack at Stations. Ranging from new mobile bluetooth scanning, a reworked company wide auth backend in nest.js, to a custom micro-frontend framework written in next.js.`}</p>
+            <p>{`Worked on the Mobile team, and then later on the Internal/R&D team. I worked across the whole stack at Stations. Ranging from a reworked company wide auth backend, to a custom micro-frontend framework in next.js.`}</p>
           </div>
-          <a href="https://www.stncash.com/" className="proj-screenshot right" target="_blank">
-            <img className="grow" src={stn} alt="stncash" />
+          <a href="https://www.stncash.com/" className="proj-screenshot">
+            <img className="grow" src={stn}  alt="stncash" />
           </a>
         </div>
         <div className="proj-container" id="PayPal">
-          <a href="https://www.paypal.com/ca/home" className="proj-screenshot left" target="_blank">
+          <a href="https://www.paypal.com/ca/home" className="proj-screenshot">
             <img className="grow" src={pp} alt="paypal" />
           </a>
           <div className="proj-detail right">
             <div className="proj-title">
               <h2>PayPal</h2>
-              <a href="https://github.com/krakenjs/kraken-js" target="_blank">
+              <a href="https://github.com/krakenjs/kraken-js">
                 <i className="fa fa-github fa-2x" aria-hidden="true" />
               </a>
               <br /><i className="bold">Consultant - Senior Software Engineer</i>
@@ -48,10 +48,10 @@ export default function Work() {
               <span>mongo.db</span>
               <span>sematext</span>
             </div>
-            <p>{`Member of the Web Platform team building out the infrastructure and experience for our product teams at PayPal. Built, maintained, and supported the Framework, tools, CI/CD, pipelines, containerization, Node.js specific middleware/clients at PayPal.`}</p>
+            <p>{`Member of the Web Platform team building out the infrastructure and experience for our product teams at PayPal. Built, maintained, and supported the Framework, tools, CI/CD, pipelines, containerization.`}</p>
           </div>
         </div>
-        <div className="proj-container" id="duodragons">
+        <div className="proj-container" id="mufg">
  
           <div className="proj-detail left">
             <div className="proj-title">
@@ -67,12 +67,12 @@ export default function Work() {
             </div>
             <p>{`Worked on a multi-million-dollar greenfield project with numerous global stakeholders throughout the bank. Consolidated various compliance procedures throughout the bank into a workflow engine written in TypeScript.`}</p>
           </div>
-          <a href="https://www.mufgamericas.com/" className="proj-screenshot right" target="_blank">
+          <a href="https://www.mufgamericas.com/" className="proj-screenshot">
             <img className="grow" src={mufg} alt="mufg" />
           </a>
         </div>
         <div className="proj-container" id="uptick">
-          <a href="http://daix.io/" className="proj-screenshot left" target="_blank">
+          <a href="http://daix.io/" className="proj-screenshot">
             <img className="grow" src={Daix} alt="concertconnect" />
           </a>
           <div className="proj-detail right">
