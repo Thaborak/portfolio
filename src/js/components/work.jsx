@@ -1,7 +1,7 @@
 import React from 'react';
-import cc from '../../img/CC.png'
-import ArmChair from '../../img/ArmChair.png';
-import DuoDragon from '../../img/DuoDragons.png';
+import stn from '../../img/stncash.png'
+import pp from '../../img/pp.png';
+import mufg from '../../img/mufg.png';
 import Daix from '../../img/daix.png'
 
 export default function Work() {
@@ -12,8 +12,74 @@ export default function Work() {
         <div className="proj-container" id="cc">
           <div className="proj-detail left">
             <div className="proj-title">
+              <h2>Station Casinos</h2>
+              <br /><i className="bold">Consultant - Software Engineer II</i>
+              <br /><i className="label">December 2021 - July 2022</i>
+            </div>
+            <div className="proj-lang">
+              <span>next.js</span>
+              <span>nest.js</span>
+              <span>react native</span>
+              <span>mongo.db</span>
+            </div>
+            <p>{`Worked on the Mobile team, and then later on the Internal/R&D team. I worked across the whole stack at Stations. Ranging from new mobile bluetooth scanning, a reworked company wide authentication & authorization backend in nest.js to a custom micro-frontend framework written in next.js.`}</p>
+          </div>
+          <a href="https://www.stncash.com/" className="proj-screenshot right" target="_blank">
+            <img className="grow" src={stn} alt="stncash" />
+          </a>
+        </div>
+        <div className="proj-container" id="PayPal">
+          <a href="https://www.paypal.com/ca/home" className="proj-screenshot left" target="_blank">
+            <img className="grow" src={pp} alt="paypal" />
+          </a>
+          <div className="proj-detail right">
+            <div className="proj-title">
+              <h2>PayPal</h2>
+              <a href="https://github.com/krakenjs/kraken-js" target="_blank">
+                <i className="fa fa-github fa-2x" aria-hidden="true" />
+              </a>
+              <br /><i className="bold">Consultant - Senior Software Engineer</i>
+              <br /><i className="label">February 2021 - November 2021</i>
+
+            </div>
+            <div className="proj-lang">
+              <span>node.js</span>
+              <span>docker</span>
+              <span>mongo.db</span>
+              <span>sematext</span>
+            </div>
+            <p>{`Member of the Web Platform team building out the infrastructure and experience for our product teams at PayPal. Built, maintained, and supported the Framework, tools, CI/CD, pipelines, containerization, Node.js specific middleware/clients at PayPal.`}</p>
+          </div>
+        </div>
+        <div className="proj-container" id="duodragons">
+ 
+          <div className="proj-detail left">
+            <div className="proj-title">
+              <h2>MUFG Bank</h2>
+              <br /><i className="bold">Consultant - Software Engineer</i>
+              <br /><i className="label">October 2019 - December 2020</i>
+            </div>
+            <div className="proj-lang">
+              <span>react</span>
+              <span>redux</span>
+              <span>node.js</span>
+              <span>ms sql</span>
+            </div>
+            <p>{`Worked on a multi-million-dollar greenfield project with numerous global stakeholders throughout the bank. Consolidated various compliance procedures throughout the bank into a workflow engine written in TypeScript.`}</p>
+          </div>
+          <a href="https://www.mufgamericas.com/" className="proj-screenshot right" target="_blank">
+            <img className="grow" src={mufg} alt="mufg" />
+          </a>
+        </div>
+        <div className="proj-container" id="uptick">
+          <a href="http://daix.io/" className="proj-screenshot left" target="_blank">
+            <img className="grow" src={Daix} alt="concertconnect" />
+          </a>
+          <div className="proj-detail right">
+            <div className="proj-title">
               <h2>Daix.io</h2>
-                <br/><i className="label">July 2018 - Present</i>
+              <br /><i className="bold">Software Engineer</i>
+              <br /><i className="label">July 2018 - July 2019</i>
             </div>
             <div className="proj-lang">
               <span>react</span>
@@ -24,75 +90,7 @@ export default function Work() {
               <span>aws</span>
               <span>docker</span>
             </div>
-            <p>{'A full stack cryptocurrency analytics platform providing realtime pricing, sentiment, and news data from hundreds of cryptocurrencies '}</p>
-            <p className="responsibilities"><b>{'Responsibilities:'}</b>{' Lead javascript development on frontend(react) and backend(node.js), started dev ops workflow with docker & aws'}</p>
-          </div>
-          <a href="http://daix.io/" className="proj-screenshot right" target="_blank">
-            <img className="grow" src={Daix} alt="concertconnect" />
-          </a>
-        </div>
-        <h1>Projects</h1>
-        <div className="proj-container" id="armchair">
-          <a href="https://armchair-gm.netlify.com/" className="proj-screenshot left" target="_blank">
-            <img className="grow" src={ArmChair} alt="armchair" />
-          </a>
-          <div className="proj-detail right">
-            <div className="proj-title">
-              <h2>ArmChair GM </h2>
-              <a href="https://github.com/Thaborak/armchair-gm-client" target="_blank">
-                <i className="fa fa-github fa-2x" aria-hidden="true" />
-              </a>
-            </div>
-            <div className="proj-lang">
-              <span>react</span>
-              <span>redux</span>
-              <span>mongo.db</span>
-              <span>node.js</span>
-            </div>
-            <p>{'The ArmChair-GM application allows a user to draft & manage their fantasy football team with a interactive draft board of the top 200 players from FantasyPros.com. '}</p>
-            <p className="responsibilities"><b>{'Responsibilities: '}</b>{'This was an individual project where I was responsible for all aspects of a full stack JavaScript application from idea and design to features and functionality.'}</p>
-          </div>
-        </div>
-        <div className="proj-container" id="cc">
-          <div className="proj-detail left">
-            <div className="proj-title">
-              <h2>ConcertConnect</h2>
-              <a href="https://github.com/kttm-development" target="_blank">
-                <i className="fa fa-github fa-2x" aria-hidden="true" />
-              </a>
-            </div>
-            <div className="proj-lang">
-              <span>react</span>
-              <span>redux</span>
-              <span>node.js</span>
-              <span>mongo.db</span>
-            </div>
-            <p>{'A full stack concert-based application that allows a user to search, book, and share multiple concert plans. We also utilized JWT for authentication, the Ticketmaster, YouTube & AirBnB API\'s for data, and the Google Maps API for additional functionality.'}</p>
-            <p className="responsibilities"><b>{'Responsibilities:'}</b>{'Managed git workflow & deployment, worked on features for both the backend & frontend.'}</p>
-          </div>
-          <a href="https://concertconnect-client.herokuapp.com/" className="proj-screenshot right" target="_blank">
-            <img className="grow" src={cc} alt="concertconnect" />
-          </a>
-        </div>
-        <div className="proj-container" id="duodragons">
-          <a href="https://learn-high-valyrian.netlify.com" className="proj-screenshot left" target="_blank">
-            <img className="grow" src={DuoDragon} alt="duodragons" />
-          </a>
-          <div className="proj-detail right">
-            <div className="proj-title">
-              <h2>DuoDragons</h2>
-              <a href="https://github.com/thinkful-ei19/tom-bianca-srp-server" target="_blank">
-                <i className="fa fa-github fa-2x" aria-hidden="true" />
-              </a>
-            </div>
-            <div className="proj-lang">
-              <span>react</span>
-              <span>redux</span>
-              <span>node.js</span>
-              <span>mongo.db</span>
-            </div>
-            <p>{'A small application designed to teach users Valyrian using a spaced-repetition algorithm. My partner on this project and I, are both fans of the HBO show Game Of Thrones and choose the fictional language Valyrian as an "unique" for the user to learn. '}</p>
-            <p className="responsibilities"><b>{'Responsibilities:'}</b>{' I was involved in all aspects of this project from idea generation to implementation.'}</p>
+            <p>{'A full stack cryptocurrency analytics platform providing realtime pricing, sentiment, and news data from hundreds of cryptocurrencies. Lead javascript development on frontend(react) and backend(node.js). '}</p>
           </div>
         </div>
       </div>
