@@ -22,7 +22,7 @@ export default function Work() {
               <span>react native</span>
               <span>mongo.db</span>
             </div>
-            <p>{`Worked on the Mobile team, and then later on the Internal/R&D team. I worked across the whole stack at Stations. Ranging from new mobile bluetooth scanning, a reworked company wide authentication & authorization backend in nest.js to a custom micro-frontend framework written in next.js.`}</p>
+            <p>{`Worked on the Mobile team, and then later on the Internal/R&D team. I worked across the whole stack at Stations. Ranging from new mobile bluetooth scanning, a reworked company wide auth backend in nest.js, to a custom micro-frontend framework written in next.js.`}</p>
           </div>
           <a href="https://www.stncash.com/" className="proj-screenshot right" target="_blank">
             <img className="grow" src={stn} alt="stncash" />
